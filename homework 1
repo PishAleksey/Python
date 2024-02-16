@@ -1,0 +1,7 @@
+the_last_walktrough_of_the_game = 'I went through the "Atomic Heart" expancion yesterday'
+print(f'{the_last_walktrough_of_the_game[0]}, {the_last_walktrough_of_the_game[-1]}, {the_last_walktrough_of_the_game[2]}, {the_last_walktrough_of_the_game[-3]}')
+print(len(the_last_walktrough_of_the_game))
+favorite_game = 'The "Atomic Heart"'
+print(f'''{favorite_game[:7]}
+{favorite_game[int(len(favorite_game)/2)-2:int(len(favorite_game)/2)+2]}
+{favorite_game[::3]}''')
